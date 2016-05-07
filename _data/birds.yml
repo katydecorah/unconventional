@@ -1,0 +1,355 @@
+# data source: https://en.wikipedia.org/wiki/List_of_national_birds
+- country: Afghanistan
+  bird: Golden eagle
+  scientific: Aquila chrysaetos
+- country: Andorra
+  bird: Bearded vulture
+  scientific: Gypaetus barbatus
+- country: Angola
+  bird: Red-crested turaco
+  scientific: Tauraco erythrolophus
+- country: Anguilla
+  bird: Zenaida dove
+  scientific: Zenaida aurita
+- country: Antigua and Barbuda
+  bird: Magnificent frigatebird
+  scientific: Fregata magnificens
+- country: Argentina
+  bird: Rufous hornero
+  scientific: Furnarius rufus
+- country: Australia
+  bird: Emu
+  scientific: Dromaius novaehollandiae
+- country: Austria
+  bird: Barn swallow
+  scientific: Hirundo rustica
+- country: Bahamas
+  bird: American flamingo
+  scientific: Phoenicopterus ruber
+- country: Bahrain
+  bird: Himalayan bulbul
+  scientific: Pycnonotus leucogenys
+- country: Bangladesh
+  bird: Oriental magpie-robin
+  scientific: Copsychus saularis
+- country: Belarus
+  bird: White stork
+  scientific: Ciconia ciconia
+- country: Belgium
+  bird: Common kestrel
+  scientific: Falco tinnunculus
+- country: Belize
+  bird: Keel-billed toucan
+  scientific: Ramphastos sulfuratus
+- country: Bermuda
+  bird: Bermuda petrel
+  scientific: Pterodroma cahow
+- country: Bhutan
+  bird: Common raven
+  scientific: Corvus corax
+- country: Bolivia
+  bird: Andean condor
+  scientific: Vultur gryphus
+- country: Botswana
+  bird: Kori bustard
+  scientific: Ardeotis kori
+- country: Brazil
+  bird: Rufous-bellied thrush
+  scientific: Turdus rufiventris
+- country: British Virgin Islands
+  bird: Mourning dove
+  scientific: Zenaida macroura
+- country: Cambodia
+  bird: Giant ibis
+  scientific: Thaumatibis gigantea
+- country: Canada
+  bird: Canada goose
+  scientific: 
+- country: Cape Verde
+  bird: Grey-headed kingfisher
+  scientific: Halcyon leucocephala
+- country: Cayman Islands
+  bird: Grand Cayman parrot
+  scientific: Amazona leucocephala caymanensis
+- country: Chile
+  bird: Andean condor
+  scientific: Vultur gryphus
+- country: China
+  bird: Red-crowned crane
+  scientific: Grus japonensis
+- country: Colombia
+  bird: Andean condor
+  scientific: Vultur gryphus
+- country: Costa Rica
+  bird: Clay-colored thrush
+  scientific: Turdus grayi
+- country: Ivory Coast
+  bird: White-cheeked turaco
+  scientific: Tauraco leucotis
+- country: Croatia
+  bird: Common nightingale
+  scientific: Luscinia megarhynchos
+- country: Cuba
+  bird: Cuban trogon
+  scientific: Priotelus temnurus
+- country: Democratic Republic of the Congo
+  bird: Congo peafowl
+  scientific: Afropavo congensis
+- country: Denmark
+  bird: Mute swan
+  scientific: Cygnus olor
+- country: Dominica
+  bird: Imperial amazon
+  scientific: Amazona imperialis
+- country: Dominican Republic
+  bird: Palmchat
+  scientific: Dulus dominicus
+- country: Ecuador
+  bird: Andean condor
+  scientific: Vultur gryphus
+- country: Egypt
+  bird: Golden eagle
+  scientific: Aquila chrysaetos
+- country: El Salvador
+  bird: Turquoise-browed motmot
+  scientific: Eumomota superciliosa
+- country: Estonia
+  bird: Barn swallow
+  scientific: Hirundo rustica
+- country: Faroe Islands
+  bird: Eurasian oystercatcher
+  scientific: Haematopus ostralegus
+- country: Finland
+  bird: Whooper swan
+  scientific: Cygnus cygnus
+- country: France
+  bird: Gallic rooster
+  scientific: Gallus gallus
+- country: Germany
+  bird: Golden eagle
+  scientific: Aquila chrysaetos
+- country: Gibraltar
+  bird: Barbary partridge
+  scientific: Alectoris barbara
+- country: Greece
+  bird: Little owl
+  scientific: Athene noctua
+- country: Grenada
+  bird: Grenada dove
+  scientific: Leptotila wellsi
+- country: Guatemala
+  bird: Resplendent quetzal
+  scientific: Pharomachrus mocinno
+- country: Guyana
+  bird: Hoatzin
+  scientific: Opisthocomus hoazin
+- country: Haiti
+  bird: Hispaniolan trogon
+  scientific: Priotelus roseigaster
+- country: Honduras
+  bird: Scarlet macaw
+  scientific: Ara macao
+- country: Hungary
+  bird: Saker falcon
+  scientific: Falco cherrug
+- country: Iceland
+  bird: Gyrfalcon
+  scientific: Falco rusticolus
+- country: India
+  bird: Indian peacock
+  scientific: Pavo cristatus
+- country: Indonesia
+  bird: Javan hawk-eagle
+  scientific: Nisaetus bartelsi
+- country: Iran
+  bird: Common nightingale
+  scientific: Luscinia megarhynchos
+- country: Iraq
+  bird: Chukar partridge
+  scientific: Alectoris chukar
+- country: Israel
+  bird: Hoopoe
+  scientific: Upupa epops
+- country: Italy
+  bird: Italian sparrow
+  scientific: Passer italiae
+- country: Jamaica
+  bird: Doctor bird
+  scientific: Trochilus polytmus
+- country: Japan
+  bird: Green pheasant
+  scientific: Phasianus versicolor
+- country: Jordan
+  bird: Sinai rosefinch
+  scientific: Carpodacus synoicus
+- country: Kenya
+  bird: Lilac-breasted roller
+  scientific: Coracias caudatus
+- country: Latvia
+  bird: White wagtail
+  scientific: Motacilla alba
+- country: Liberia
+  bird: Garden bulbul
+  scientific: Pycnonotus barbatus
+- country: Lithuania
+  bird: White stork
+  scientific: Ciconia ciconia
+- country: Luxembourg
+  bird: Goldcrest
+  scientific: Regulus regulus
+- country: Malawi
+  bird: African Fish Eagle
+  scientific: Haliaeetus vocifer
+- country: Malaysia
+  bird: Rhinoceros hornbill
+  scientific: Buceros rhinoceros
+- country: Maldives
+  bird: White-breasted waterhen
+  scientific: whitebreastedwaterhen
+- country: Malta
+  bird: Blue rock thrush
+  scientific: Monticola solitarius
+- country: Mauritius
+  bird: Dodo
+  scientific: Raphus cucullatus
+- country: Mexico
+  bird: Golden eagle
+  scientific: Aquila chrysaetos
+- country: Mongolia
+  bird: Saker falcon
+  scientific: Falco cherrug
+- country: Montserrat
+  bird: Montserrat oriole
+  scientific: Icterus oberi
+- country: Myanmar
+  bird: Grey peacock-pheasant
+  scientific: Polyplectron bicalcaratum
+- country: Namibia
+  bird: African fish eagle
+  scientific: Haliaeetus vocifer
+- country: Nepal
+  bird: Himalayan monal
+  scientific: Lophophorus impejanus
+- country: Netherlands
+  bird: Black-tailed godwit
+  scientific: Limosa limosa
+- country: New Zealand
+  bird: Kiwi
+  scientific: Apteryx mantelli
+- country: Nicaragua
+  bird: Turquoise-browed motmot
+  scientific: Eumomota superciliosa
+- country: Nigeria
+  bird: Black crowned crane
+  scientific: Balearica pavonina
+- country: North Korea
+  bird: Northern goshawk
+  scientific: Accipiter gentilis
+- country: Norway
+  bird: White-throated dipper
+  scientific: Cinclus cinclus
+- country: Pakistan
+  bird: Chukar partridge
+  scientific: Alectoris chukar
+- country: Palestine
+  bird: Palestine sunbird
+  scientific: Cinnyris oseus
+- country: Panama
+  bird: Harpy eagle
+  scientific: Harpia harpyja
+- country: Papua New Guinea
+  bird: Raggiana bird-of-paradise
+  scientific: Paradisaea raggiana
+- country: Paraguay
+  bird: Bare-throated bellbird
+  scientific: Procnias nudicollis
+- country: Peru
+  bird: Andean cock-of-the-rock
+  scientific: Rupicola peruvianus
+- country: Philippines
+  bird: Philippine eagle
+  scientific: Pithecophaga jefferyi
+- country: Puerto Rico
+  bird: Puerto Rican spindalis
+  scientific: Spindalis portoricensis
+- country: Romania
+  bird: Great white pelican
+  scientific: Pelecanus onocrotalus
+- country: Russia
+  bird: Tundra swan
+  scientific: Cygnus columbianus
+- country: Saint Helena
+  bird: Saint Helena plover
+  scientific: Charadrius sanctaehelenae
+- country: Saint Kitts and Nevis
+  bird: Brown pelican
+  scientific: Pelecanus occidentalis
+- country: Saint Vincent and the Grenadines
+  bird: St Vincent parrot
+  scientific: Amazona guildingii
+- country: Scotland
+  bird: Golden eagle
+  scientific: Aquila chrysaetos
+- country: Serbia
+  bird: Eagle
+  scientific: 
+- country: Singapore
+  bird: Crimson sunbird
+  scientific: Aethopyga siparaja
+- country: South Africa
+  bird: Blue crane
+  scientific: Anthropoides paradisea
+- country: South Korea
+  bird: Korean magpie
+  scientific: Pica (pica) serieca
+- country: South Sudan
+  bird: African fish eagle
+  scientific: Haliaeetus vocifer
+- country: Spain
+  bird: Spanish imperial eagle
+  scientific: Aquila adalberti
+- country: Sri Lanka
+  bird: Sri Lanka junglefowl
+  scientific: Gallus lafayetii
+- country: Sudan
+  bird: Secretary bird
+  scientific: Sagittarius serpentarius
+- country: Swaziland
+  bird: Purple-crested turaco
+  scientific: Tauraco porphyreolophus
+- country: Sweden
+  bird: Common blackbird
+  scientific: Turdus merula
+- country: Taiwan
+  bird: Taiwan blue magpie
+  scientific: Urocissa caerulea
+- country: Thailand
+  bird: Siamese fireback
+  scientific: Lophura diardi
+- country: Trinidad and Tobago
+  bird: Scarlet ibis
+  scientific: Eudocimus ruber
+- country: Turkey
+  bird: Redwing
+  scientific: Turdus iliacus
+- country: Uganda
+  bird: East African crowned crane
+  scientific: Balearica regulorum gibbericeps
+- country: United Kingdom
+  bird: European robin
+  scientific: Erithacus rubecula
+- country: United States
+  bird: Bald eagle
+  scientific: Haliaeetus leucocephalus
+- country: Uruguay
+  bird: Southern lapwing
+  scientific: Vanellus chilensis
+- country: Venezuela
+  bird: Venezuelan troupial
+  scientific: Icterus icterus
+- country: Zambia
+  bird: African fish eagle
+  scientific: Haliaeetus vocifer
+- country: Zimbabwe
+  bird: African fish eagle
+  scientific: Haliaeetus vocifer

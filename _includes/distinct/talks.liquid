@@ -1,0 +1,1 @@
+{% assign talks = "" | split: "" %}{% for country in distinct_countries %}{% assign store_talks = "" | split: "|" %}{% for speaker in site.data.speakers %}{% if country == speaker.country %}{% assign store_talks = store_talks | push: speaker.talk %}{% endif %}{% endfor %}{% assign talks = talks | push: store_talks %}{% endfor %}

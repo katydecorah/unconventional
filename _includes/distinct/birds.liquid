@@ -1,0 +1,1 @@
+{% assign birds = "" | split: "" %}{% for country in distinct_countries %}{% for bird in site.data.birds %}{% if country == bird.country %}{% assign birds = birds | push: bird.bird %}{% endif %}{% endfor %}{% endfor %}

@@ -1,0 +1,1 @@
+{% assign distinct_countries = "" | split: "" %}{% for speaker in site.data.speakers %}{% if speaker.country %}{% unless distinct_countries contains speaker.country %}{% assign distinct_countries = distinct_countries | push: speaker.country %}{% endunless %}{% endif %}{% endfor %}

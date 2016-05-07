@@ -1,0 +1,62 @@
+title: Unconventional use cases for Jekyll
+email: katydecorah@gmail.com
+description: "JekyllConf 2016 - Experiments to learn more about your date."
+baseurl: /unconventional
+url: "http://katydecorah.com"
+permalink: pretty
+accesstoken: pk.eyJ1Ijoia2F0eWRlY29yYWgiLCJhIjoiY2lueGc5MzV2MTdpcHU4a2o0aGdkMGZpYSJ9.AH3nT__bjnI57me5iahTWw
+
+author: 
+  name: Katy DeCorah
+  email: katydecorah@gmail.com
+  uri: http://katydecorah.com
+  twitter: katydecorah
+
+twitter:
+  username: katydecorah
+
+timezone: America/New_York
+
+gems:
+  - jemoji
+  - jekyll-seo-tag
+  
+exclude:
+  - node_modules
+  - README.md
+  - package.json
+  - .gitignore
+  - Gemfile
+  - test
+#  - scratch
+
+mapboxgljs: v0.18.0
+mapboxjs: v2.4.0
+
+markdown: kramdown
+
+kramdown:
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+collections:
+  slides:
+    output: false
+
+defaults:
+  - scope:
+      path: ""
+      type: slides
+    values:
+      layout: default
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: redirect
+      permalink: /blog/:categories/:title/
+      redirect: /

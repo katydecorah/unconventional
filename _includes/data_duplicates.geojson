@@ -1,0 +1,17 @@
+{
+  "type": "FeatureCollection",
+  "features": [{% for country in site.data.countries %}{% for speaker in site.data.speakers %}{% if country.country == speaker.country %}
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "{{country.country}}",
+        "speaker_num": {{speakers[forloop.index0] | size | jsonify}},
+        "speaker_names": {{speakers[forloop.index0] | jsonify}}
+      },
+      "geometry": {
+        "type": "{{country.type}}",
+        "coordinates": {{country.coordinates}}
+      }
+    },{% endif %}{% endfor %}{% endfor %}
+  ]
+}

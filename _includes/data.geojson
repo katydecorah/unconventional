@@ -1,0 +1,19 @@
+{% include distinct/countries.liquid %}{% include distinct/speakers.liquid %}{% include distinct/twitter.liquid %}{% include distinct/talks.liquid %}{
+  "type": "FeatureCollection",
+  "features": [{% for countries in site.data.countries %}{% for distinct_country in distinct_countries %}{% if countries.country == distinct_country %}
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "{{countries.country}}",
+        "speaker_num": {{speakers[forloop.index0] | size | jsonify}},
+        "speaker_names": {{speakers[forloop.index0] | jsonify}},
+        "twitter_handles": {{twitter_handles[forloop.index0] | jsonify}},
+        "talks": {{talks[forloop.index0] | jsonify}}
+      },
+      "geometry": {
+        "type": "{{countries.type}}",
+        "coordinates": {{countries.coordinates}}
+      }
+    },{% endif %}{% endfor %}{% endfor %}
+  ]
+}

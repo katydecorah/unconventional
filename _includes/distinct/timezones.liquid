@@ -1,0 +1,8 @@
+{% assign timezones = "" | split: "" %}{% for d_country in distinct_countries %}{% for zone in site.data.timezones %}{% if d_country == zone.country %}{% assign timezones = timezones | push: zone.time %}{% endif %}{% endfor %}{% endfor %}
+
+{% assign timezone_max = 0 %}{% for zone in timezones %}
+{% assign z = zone | replace: '+','' | replace:'-','' | replace: ':','' | plus:0 %}{% if z > timezone_max %}{% assign timezone_max = z %}{% assign timezone_max_index = forloop.index0 %}{% endif %}{% endfor %}
+
+{% assign utc = 20 %}{% assign actualtimes = "" | split: "" %}{% for time in timezones %}{% if time contains '+' %}{% assign adjust = time | replace:'+','' | replace:':','.' %}  {% assign final = utc | plus: adjust %}    {% if final > 24 %}  {% assign pushThis = final | minus: 24 %}    {% assign actualtimes = actualtimes | push: pushThis %}    {% else %}  {% assign pushThis = final %}  {% assign actualtimes = actualtimes | push: pushThis %}  {% endif %}{% elsif time contains '-' %}{% assign adjust = time | replace:'-','' | replace:':','.' %}{% assign pushThis = utc | minus: adjust %}{% assign actualtimes = actualtimes | push: pushThis %}{% else %}{% assign pushThis = utc %}{% assign actualtimes = actualtimes | push: pushThis %}{% endif %}{% endfor %}
+
+{% assign meals = "" | split: "" %}{% for time in actualtimes %}{% if time > 20 %}  {% assign meals = meals | push: "late night snack" %} {% elsif time > 17 %}   {% assign meals = meals | push: "dinner" %}  {% elsif time > 11 %}    {% assign meals = meals | push: "lunch" %}  {% elsif time > 6 %}    {% assign meals = meals | push: "breakfast" %}{% endif %}{% endfor %}

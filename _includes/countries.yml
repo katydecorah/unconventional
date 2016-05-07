@@ -1,0 +1,5 @@
+# Data source: https://github.com/johan/world.geo.json
+{% for country in site.data.countries limit: 5 %}
+- country: {{country.country}}
+  type: {{country.type}}
+  coordinates: {{country.coordinates}}{% endfor %}

@@ -1,0 +1,111 @@
+---
+---
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8' />
+  <title></title>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/{{site.mapboxgljs}}/mapbox-gl.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/{{site.mapboxgljs}}/mapbox-gl.css' rel='stylesheet' />
+  <link href='https://www.mapbox.com/base/latest/base.css' rel='stylesheet' />
+  <style>
+  body { margin:0; padding:0; }
+  #map { position:absolute; top:0; bottom:0; width:100%; }
+  .sidebar {
+    height: 100vh;
+    overflow-y: scroll;
+  }
+  h3 {
+    font-size: 25px;
+  }
+  </style>
+</head>
+<body>
+  <div id='sidebar' class='sidebar fill-navy pad2 pin-left z10 dark col3'><h3 class="fancy space-bottom1">JekyllConf speakers</h3><p class="quiet">Hover over each country to see where each speaker is from.</p></div>
+  <div id='map'></div>
+  <script>
+  mapboxgl.accessToken = '{{site.accesstoken}}';
+  var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/light-v8',
+    center: [-115, 25],
+    zoom: 1
+  });
+  
+  map.on('load', function () {
+    map.addSource("countries", {
+      "type": "geojson",
+      "data": {% include data.geojson %}
+    });
+    
+    map.addLayer({
+      "id": "countries",
+      "type": "fill",
+      "source": "countries",
+      'layout': {},
+      'paint': {
+        'fill-color': '#41afa5',
+        'fill-opacity': 0.5
+      }
+    }, 'waterway-label');
+    
+    map.addLayer({
+      "id": "countries-hover",
+      "type": "fill",
+      "source": "countries",
+      "layout": {},
+      "paint": {
+        "fill-color": "#41afa5",
+        "fill-opacity": 1
+      },
+      "filter": ["==", "country", ""]
+    });
+    
+    
+    // When the user moves their mouse over the page, we look for features
+    // at the mouse position (e.point) and within the states layer (states-fill).
+    // If a feature is found, then we'll update the filter in the route-hover
+    // layer to only show that state, thus making a hover effect.
+    map.on("mousemove", function(e) {
+      var features = map.queryRenderedFeatures(e.point, { layers: ["countries"] });
+      if (features.length) {
+        map.setFilter("countries-hover", ["==", "country", features[0].properties.country]);
+      } else {
+        map.setFilter("countries-hover", ["==", "country", ""]);
+      }
+    });
+  });
+  
+  
+  // Use the same approach as above to indicate that the symbols are clickable
+  // by changing the cursor style to 'pointer'.
+  map.on('mousemove', function (e) {
+    var features = map.queryRenderedFeatures(e.point, { layers: ['countries'] });
+    map.getCanvas().style.cursor = (features.length) ? 'pointer' : '';
+    
+    if (!features.length) {
+      return;
+    }
+    
+    var feature = features[0];
+    
+    // build speaker list
+    var speakerList = feature.properties['speaker_names'].split(',');
+    var twitterList = feature.properties['twitter_handles'].split(',');
+    var talks = feature.properties['talks'].split(',');
+    //console.log(speakerList);
+    var speakers = '<div class="speakers">';
+    speakerList.forEach(function(speaker, i){
+      speakers += '<div class="speaker clearfix keyline-bottom pad1y"><a href="https://twitter.com/'+twitterList[i]+'" target="_blank" class="block"><img alt="" class="dot col2 margin0r fl" src="https://avatars.io/twitter/'+twitterList[i]+'"><span class="block fr col9"><span class="strong" style="color: #fff">' + speaker + '</span><span class="small block">'+talks[i]+'<span></span></a></div>';
+    })
+    speakers += '</div>';
+    
+    document.getElementById('sidebar').innerHTML = '<h3 class="fancy space-bottom1">'+feature.properties.country+'</h3><p>Number of speakers: ' + feature.properties.speaker_num+'</p>'+ speakers;
+    
+  });
+  </script>
+  
+</body>
+</html>

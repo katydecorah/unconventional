@@ -1,0 +1,111 @@
+# Data source: http://jekyllconf.com/, Twitter bios, LinkedIn profiles
+
+- speaker: Ire Aderinkokun
+  twitter: ireaderinokun
+  country: Nigeria
+  talk: Using Jekyll For Rapid CSS Testing
+  
+- speaker: Amy Johnston
+  twitter: amybeukenex
+  country: Netherlands
+  talk: Jekyll For Technical Documentation
+  
+- speaker: Julio Faerman
+  twitter: jmfaerman
+  country: Brazil
+  talk: Jekyll On AWS
+    
+- speaker: Bud Parr
+  twitter: budparr
+  country: United States
+  talk: Real World Content Strategy With Jekyll
+
+- speaker: Leon Weber
+  twitter: leon_wbr
+  country: Germany
+  talk: Multilingual Jekyll Sites
+
+- speaker: Ronan Berder
+  twitter: hunvreus
+  country: United States
+  talk: Designing Fast Websites With Jekyll 
+
+- speaker: Mike Neumegen
+  twitter: mikeneumegen
+  country: United States
+  talk: Learning Resources For The Jekyll Community
+
+- speaker: David Darnes
+  twitter: DavidDarnes
+  country: United Kingdom
+  talk: Doing A Lot With A Little
+
+- speaker: Paul Webb
+  twitter: NetOpWibby
+  country: United States
+  talk: Deploy Jekyll Like A Boss
+
+- speaker: Katy DeCorah
+  twitter: katydecorah
+  country: United States
+  talk: Unconventional Use Cases For Jekyll
+
+- speaker: Jon Chan
+  twitter: JonHMChan
+  country: United States
+  talk: Stack Overflow On Jekyll
+
+- speaker: Michael Lee
+  twitter: michaelsoolee
+  country: United States
+  talk: Jekyll - Your Website's Baseplate
+
+- speaker: David Jones
+  twitter: d_jones
+  country: United States
+  talk: Building Our Agency Site With Jekyll 
+
+- speaker: Scott Hewitt
+  twitter: scotthewitt
+  country: United Kingdom
+  talk: Jekyll For Every Case
+
+- speaker: Caleb Hicks
+  twitter: calebhicks
+  country: United States
+  talk: Using Jekyll To Manage Our IOS Coding Bootcamp
+
+- speaker: Allison Zadrozny
+  twitter: allizad
+  country: United States
+  talk: Elasticsearch For Jekyll
+
+- speaker: George Phillips
+  twitter: gphillips_nz
+  country: New Zealand
+  talk: Building Client-Editable Jekyll Sites
+
+- speaker: Tom Johnson
+  twitter: tomjohnson
+  country: United States
+  talk: Overcoming Challenges In Using Jekyll For Documentation Projects
+
+- speaker: Nils Borchers
+  twitter: nilsborchers
+  country: Germany
+  talk: Building A Living Brand Guide With Jekyll And Hologram
+
+- speaker: David Von Lehman
+  twitter: davidvlsea
+  country: United States
+  talk: Continuous Deployment Of Jekyll Sites Powered By Docker
+
+- speaker: Oliver Pattison
+  twitter: olivermakes
+  country: United States
+  talk: Responsive Srcset Images With Imgix 
+
+- speaker: Tim Carry
+  twitter: pixelastic
+  country: France
+  talk: Algolia Search On Jekyll Sites 

@@ -1,0 +1,548 @@
+# data source: https://www.countries-ofthe-world.com/world-time-zones.html
+
+- country: Afghanistan 
+  time: '+04:30'
+- country: Albania 
+  time: '+01:00' 
+- country: Algeria 
+  time: '+01:00'
+- country: American Samoa (USA) 
+  time: '−11:00'
+- country: Andorra 
+  time: '+01:00' 
+- country: Angola 
+  time: '+01:00'
+- country: Anguilla (UK) 
+  time: '−04:00'
+- country: Antigua and Barbuda 
+  time: '−04:00'
+- country: Argentina 
+  time: '−03:00'
+- country: Armenia 
+  time: '+04:00'
+- country: Aruba (Netherlands) 
+  time: '−04:00'
+- country: Australia, Western Australia (WA) 
+  time: '+08:00'
+- country: Australia, South Australia (SA) 
+  time: '+09:30' 
+- country: Australia, Northern Territory (NT) 
+  time: '+09:30'
+- country: Australia, New South Wales (NSW), Tasmania (TAS), Victoria (VIC), Australian Capital Territory (ACT) with Canberra capital city 
+  time: '+10:00' 
+- country: Australia, Queensland (QLD) 
+  time: '+10:00'
+- country: Australia, Lord Howe Island (New South Wales) 
+  time: '+10:30' 
+- country: Australia, Macquarie Island (Tasmania) 
+  time: '+11:00'
+- country: Austria 
+  time: '+01:00' 
+- country: Azerbaijan 
+  time: '+04:00' 
+- country: Bahamas 
+  time: '−05:00' 
+- country: Bahrain 
+  time: '+03:00'
+- country: Bangladesh 
+  time: '+06:00'
+- country: Barbados 
+  time: '−04:00'
+- country: Belarus 
+  time: '+03:00'
+- country: Belgium 
+  time: '+01:00' 
+- country: Belize 
+  time: '−06:00'
+- country: Benin 
+  time: '+01:00'
+- country: Bermuda (UK) 
+  time: '−04:00' 
+- country: Bhutan 
+  time: '+06:00'
+- country: Bolivia 
+  time: '−04:00'
+- country: Bosnia and Herzegovina 
+  time: '+01:00' 
+- country: Botswana 
+  time: '+02:00'
+- country: Brazil, Acre, Western Amazonas 
+  time: '−05:00'
+- country: Brazil, Eastern Amazonas, Rondonia, Roraima 
+  time: '−04:00'
+- country: Brazil, Mato Grosso do Sul, Mato Grosso 
+  time: '−04:00' 
+- country: Brazil, Alagoas, Amapa, Maranhao, Para, Piaui, Ceara, Sergipe, Paraiba, Pernambuco, Rio Grande do Norte, Bahia, Tocantins, Distrito Federal 
+  time: '−03:00'
+- country: Brazil
+  time: '-03:00' 
+- country: Brazil, small islands in Atlantic (Fernando de Noronha, Trindade) 
+  time: '−02:00'
+- country: British Indian Ocean Territory (UK) 
+  time: '+06:00'
+- country: British Virgin Islands (UK) 
+  time: '−04:00'
+- country: Brunei 
+  time: '+08:00'
+- country: Bulgaria 
+  time: '+02:00' 
+- country: Burkina Faso 
+  time: '00:00'
+- country: Burundi 
+  time: '+02:00'
+- country: Cabo Verde 
+  time: '−01:00'
+- country: Cambodia 
+  time: '+07:00'
+- country: Cameroon 
+  time: '+01:00'
+- country: Canada
+  time: '−05:00'
+- country: Caribbean Netherlands (Netherlands) 
+  time: '−04:00'
+- country: Cayman Islands (UK) 
+  time: '−05:00'
+- country: Central African Republic 
+  time: '+01:00'
+- country: Chad 
+  time: '+01:00'
+- country: Chatham Islands (New Zealand) 
+  time: '+12:45' 
+- country: Chile, main territory 
+  time: '−03:00'
+- country: Chile, Easter Island 
+  time: '−05:00'
+- country: China 
+  time: '+08:00'
+- country: Christmas Island (Australia) 
+  time: '+07:00'
+- country: Cocos (Keeling) Islands (Australia) 
+  time: '+06:30'
+- country: Colombia 
+  time: '−05:00'
+- country: Comoros 
+  time: '+03:00'
+- country: Congo, Republic of the 
+  time: '+01:00'
+- country: Congo, Dem. Rep., western part 
+  time: '+01:00'
+- country: Congo, Dem. Rep., eastern part 
+  time: '+02:00'
+- country: Cook Islands (New Zealand) 
+  time: '−10:00'
+- country: Costa Rica 
+  time: '−06:00'
+- country: Cote d'Ivoire 
+  time: '00:00'
+- country: Croatia 
+  time: '+01:00' 
+- country: Cuba 
+  time: '−05:00' 
+- country: Curaçao (Netherlands) 
+  time: '−04:00'
+- country: Cyprus 
+  time: '+02:00' 
+- country: Czech Republic 
+  time: '+01:00' 
+- country: Denmark 
+  time: '+01:00' 
+- country: Djibouti 
+  time: '+03:00'
+- country: Dominica 
+  time: '−04:00'
+- country: Dominican Republic 
+  time: '−04:00'
+- country: Ecuador, main territory 
+  time: '−05:00'
+- country: Ecuador, Galapagos Province 
+  time: '−06:00'
+- country: Egypt 
+  time: '+02:00'
+- country: El Salvador 
+  time: '−06:00'
+- country: Equatorial Guinea 
+  time: '+01:00'
+- country: Eritrea 
+  time: '+03:00'
+- country: Estonia 
+  time: '+02:00' 
+- country: Ethiopia 
+  time: '+03:00'
+- country: Falkland Islands (UK) 
+  time: '−03:00'
+- country: Faroe Islands (Denmark) 
+  time: '00:00' 
+- country: Fiji 
+  time: '+12:00'
+- country: Finland 
+  time: '+02:00' 
+- country: France 
+  time: '+01:00' 
+- country: French Guiana (France) 
+  time: '−03:00'
+- country: French Polynesia, Tahiti Island (France) 
+  time: '−10:00'
+- country: French Polynesia, Marquesas Islands (France) 
+  time: '−09:30'
+- country: French Polynesia, Gambier Islands (France) 
+  time: '−09:00'
+- country: Gabon 
+  time: '+01:00'
+- country: Gambia 
+  time: '00:00'
+- country: Georgia 
+  time: '+04:00'
+- country: Germany 
+  time: '+01:00' 
+- country: Ghana 
+  time: '00:00'
+- country: Gibraltar (UK) 
+  time: '+01:00' 
+- country: Greece 
+  time: '+02:00' 
+- country: Greenland (Denmark), most of 
+  time: '−03:00' 
+- country: Greenland (Denmark), Thule Air Base 
+  time: '−04:00' 
+- country: Greenland (Denmark), Ittoqqortoormiit 
+  time: '−01:00' 
+- country: Grenada 
+  time: '−04:00'
+- country: Guadeloupe (France) 
+  time: '−04:00'
+- country: Guam (USA) 
+  time: '+10:00'
+- country: Guatemala 
+  time: '−06:00'
+- country: Guernsey (UK) 
+  time: '00:00' 
+- country: Guinea 
+  time: '00:00'
+- country: Guinea-Bissau 
+  time: '00:00'
+- country: Guyana 
+  time: '−04:00'
+- country: Haiti 
+  time: '−05:00' 
+- country: Honduras 
+  time: '−06:00'
+- country: Hong Kong (China) 
+  time: '+08:00'
+- country: Hungary 
+  time: '+01:00' 
+- country: Iceland 
+  time: '00:00'
+- country: India 
+  time: '+05:30'
+- country: Indonesia, Sumatra Island, Java Island, West Kalimantan, Central Kalimantan 
+  time: '+07:00'
+- country: Indonesia, Sulawesi Island, Lesser Sunda Islands, North Kalimantan, East Kalimantan, South Kalimantan 
+  time: '+08:00'
+- country: Indonesia, Maluku Islands, Papua, West Papua 
+  time: '+09:00'
+- country: Iran 
+  time: '+03:30' 
+- country: Iraq 
+  time: '+03:00'
+- country: Ireland 
+  time: '00:00' 
+- country: Isle of Man (UK) 
+  time: '00:00' 
+- country: Israel 
+  time: '+02:00' 
+- country: Italy 
+  time: '+01:00' 
+- country: Jamaica 
+  time: '−05:00'
+- country: Japan 
+  time: '+09:00'
+- country: Jersey (UK) 
+  time: '00:00' 
+- country: Jordan 
+  time: '+02:00' 
+- country: Kazakhstan, western part 
+  time: '+05:00'
+- country: Kazakhstan, eastern part 
+  time: '+06:00'
+- country: Kenya 
+  time: '+03:00'
+- country: Kerguelen Islands (France) 
+  time: '+05:00'
+- country: Kiribati, Gilbert Islands 
+  time: '+12:00'
+- country: Kiribati, Phoenix Islands 
+  time: '+13:00'
+- country: Kiribati, Line Islands 
+  time: '+14:00'
+- country: Kosovo 
+  time: '+01:00' 
+- country: Kuwait 
+  time: '+03:00'
+- country: Kyrgyzstan 
+  time: '+06:00'
+- country: Laos 
+  time: '+07:00'
+- country: Latvia 
+  time: '+02:00' 
+- country: Lebanon 
+  time: '+02:00' 
+- country: Lesotho 
+  time: '+02:00'
+- country: Liberia 
+  time: '00:00'
+- country: Libya 
+  time: '+01:00'
+- country: Liechtenstein 
+  time: '+01:00' 
+- country: Lithuania 
+  time: '+02:00' 
+- country: Luxembourg 
+  time: '+01:00' 
+- country: Macedonia 
+  time: '+01:00' 
+- country: Madagascar 
+  time: '+03:00'
+- country: Malawi 
+  time: '+02:00'
+- country: Malaysia 
+  time: '+08:00'
+- country: Maldives 
+  time: '+05:00'
+- country: Mali 
+  time: '00:00'
+- country: Malta 
+  time: '+01:00' 
+- country: Marshall Islands 
+  time: '+12:00'
+- country: Martinique (France) 
+  time: '−04:00'
+- country: Mauritania 
+  time: '00:00'
+- country: Mauritius 
+  time: '+04:00'
+- country: Mayotte (France) 
+  time: '+03:00'
+- country: Mexico, most of 
+  time: '−06:00' 
+- country: Mexico, state of Quintana Roo 
+  time: '−05:00'
+- country: Mexico, states of Baja California Sur, Chihuahua, Nayarit, Sinaloa 
+  time: '−07:00' 
+- country: Mexico, state of Sonora 
+  time: '−07:00'
+- country: Mexico, state of Baja California 
+  time: '−08:00' 
+- country: Micronesia, states of Chuuk and Yap 
+  time: '+10:00'
+- country: Micronesia, states of Kosrae and Pohnpei 
+  time: '+11:00'
+- country: Moldova 
+  time: '+02:00' 
+- country: Monaco 
+  time: '+01:00' 
+- country: Mongolia, most of 
+  time: '+08:00' 
+- country: Mongolia, provinces of Khovd, Uvs, Bayan-Olgii 
+  time: '+07:00' 
+- country: Montenegro 
+  time: '+01:00' 
+- country: Montserrat (UK) 
+  time: '−04:00'
+- country: Morocco 
+  time: '00:00' 
+- country: Mozambique 
+  time: '+02:00'
+- country: Myanmar (Burma) 
+  time: '+06:30'
+- country: Namibia 
+  time: '+01:00' 
+- country: Nauru 
+  time: '+12:00'
+- country: Nepal 
+  time: '+05:45'
+- country: Netherlands 
+  time: '+01:00' 
+- country: New Caledonia (France) 
+  time: '+11:00'
+- country: New Zealand 
+  time: '+12:00' 
+- country: Nicaragua 
+  time: '−06:00'
+- country: Niger 
+  time: '+01:00'
+- country: Nigeria 
+  time: '+01:00'
+- country: Niue (New Zealand) 
+  time: '−11:00'
+- country: Norfolk Island (Australia) 
+  time: '+11:30'
+- country: North Korea 
+  time: '+09:00'
+- country: Northern Mariana Islands (USA) 
+  time: '+10:00'
+- country: Norway 
+  time: '+01:00' 
+- country: Oman 
+  time: '+04:00'
+- country: Pakistan 
+  time: '+05:00'
+- country: Palau 
+  time: '+09:00'
+- country: Palestine 
+  time: '+02:00' 
+- country: Panama 
+  time: '−05:00'
+- country: Papua New Guinea 
+  time: '+10:00'
+- country: Paraguay 
+  time: '−04:00' 
+- country: Peru 
+  time: '−05:00'
+- country: Philippines 
+  time: '+08:00'
+- country: Pitcairn Islands (UK) 
+  time: '−08:00'
+- country: Poland 
+  time: '+01:00' 
+- country: Portugal, main territory 
+  time: '00:00' 
+- country: Portugal, Azores 
+  time: '−01:00' 
+- country: Puerto Rico (USA) 
+  time: '−04:00'
+- country: Qatar 
+  time: '+03:00'
+- country: Réunion (France) 
+  time: '+04:00'
+- country: Romania 
+  time: '+02:00' 
+- country: Russia
+  time: '+03:00' 
+- country: Rwanda 
+  time: '+02:00'
+- country: St. Barthélemy (France) 
+  time: '−04:00'
+- country: St. Helena (UK) 
+  time: '00:00'
+- country: St. Kitts and Nevis 
+  time: '−04:00'
+- country: St. Lucia 
+  time: '−04:00'
+- country: St. Martin (France) 
+  time: '−04:00'
+- country: St. Pierre and Miquelon (France) 
+  time: '−03:00' 
+- country: St. Vincent and The Grenadines 
+  time: '−04:00'
+- country: Samoa 
+  time: '+13:00' 
+- country: San Marino 
+  time: '+01:00' 
+- country: Sao Tome and Principe 
+  time: '00:00'
+- country: Saudi Arabia 
+  time: '+03:00'
+- country: Senegal 
+  time: '00:00'
+- country: Serbia 
+  time: '+01:00' 
+- country: Seychelles 
+  time: '+04:00'
+- country: Sierra Leone 
+  time: '00:00'
+- country: Singapore 
+  time: '+08:00'
+- country: Sint Maarten (Netherlands) 
+  time: '−04:00'
+- country: Slovakia 
+  time: '+01:00' 
+- country: Slovenia 
+  time: '+01:00' 
+- country: Solomon Islands 
+  time: '+11:00'
+- country: Somalia 
+  time: '+03:00'
+- country: South Africa 
+  time: '+02:00'
+- country: South Korea 
+  time: '+09:00'
+- country: South Sudan 
+  time: '+03:00'
+- country: Spain, main territory 
+  time: '+01:00' 
+- country: Spain, Canary Islands 
+  time: '00:00' 
+- country: Sri Lanka 
+  time: '+05:30'
+- country: Sudan 
+  time: '+03:00'
+- country: Suriname 
+  time: '−03:00'
+- country: Swaziland 
+  time: '+02:00'
+- country: Sweden 
+  time: '+01:00' 
+- country: Switzerland 
+  time: '+01:00' 
+- country: Syria 
+  time: '+02:00' 
+- country: Taiwan 
+  time: '+08:00'
+- country: Tajikistan 
+  time: '+05:00'
+- country: Tanzania 
+  time: '+03:00'
+- country: Thailand 
+  time: '+07:00'
+- country: Timor-Leste 
+  time: '+09:00'
+- country: Togo 
+  time: '00:00'
+- country: Tokelau (New Zealand) 
+  time: '+13:00'
+- country: Tonga 
+  time: '+13:00'
+- country: Trinidad and Tobago 
+  time: '−04:00'
+- country: Tunisia 
+  time: '+01:00'
+- country: Turkey 
+  time: '+02:00' 
+- country: Turkmenistan 
+  time: '+05:00'
+- country: Turks and Caicos Islands (UK) 
+  time: '−04:00'
+- country: Tuvalu 
+  time: '+12:00'
+- country: Uganda 
+  time: '+03:00'
+- country: Ukraine 
+  time: '+02:00' 
+- country: United Arab Emirates 
+  time: '+04:00'
+- country: United Kingdom 
+  time: '00:00' 
+- country: United States
+  time: '-04:00'
+- country: Uruguay 
+  time: '−03:00' 
+- country: US Virgin Islands (USA) 
+  time: '−04:00'
+- country: Uzbekistan 
+  time: '+05:00'
+- country: Vanuatu 
+  time: '+11:00'
+- country: Vatican City (Holy See) 
+  time: '+01:00' 
+- country: Venezuela 
+  time: '−04:30'
+- country: Vietnam 
+  time: '+07:00'
+- country: Wallis and Futuna (France) 
+  time: '+12:00'
+- country: Yemen 
+  time: '+03:00'
+- country: Zambia 
+  time: '+02:00'
+- country: Zimbabwe 
+  time: '+02:00'

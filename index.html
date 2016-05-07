@@ -1,0 +1,7 @@
+---
+layout: default
+---
+
+{% for post in site.slides %}{% assign content = post.content %}
+<div>{{content | split:'<!--*-->' | join: '</div><div>'}}</div>
+{% endfor %}

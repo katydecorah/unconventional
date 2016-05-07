@@ -1,0 +1,1 @@
+{% assign twitter_handles = "" | split: "" %}{% for country in distinct_countries %}{% assign twitter = "" | split: "|" %}{% for speaker in site.data.speakers %}{% if country == speaker.country %}{% assign twitter = twitter | push: speaker.twitter %}{% endif %}{% endfor %}{% assign twitter_handles = twitter_handles | push: twitter %}{% endfor %}
