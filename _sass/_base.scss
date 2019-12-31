@@ -1,6 +1,6 @@
 $text-color: #404040;
 $bg-color: #f8f8f8;
-$instruction-bg: rgba(#000, .1);
+$instruction-bg: rgba(#000, 0.1);
 $strong: #8a8acb;
 $emphasis: #41afa5;
 $screen-width: 80vw;
@@ -17,7 +17,7 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   letter-spacing: -0.15em;
   background-size: 100%;
   color: $text-color;
@@ -44,11 +44,15 @@ body.go-text {
   text-indent: -999em;
 }
 
-h1, h2, h3, p {
+h1,
+h2,
+h3,
+p {
   margin: 0;
 }
 
-em, a {
+em,
+a {
   font-style: normal;
   color: $emphasis;
   font-family: inherit;
@@ -60,7 +64,7 @@ ul {
 
 li {
   margin-left: 1em;
-  margin-bottom: .25em;
+  margin-bottom: 0.25em;
 }
 
 strong {
@@ -68,14 +72,14 @@ strong {
 }
 
 strike {
-  color: rgba($text-color, .75);
+  color: rgba($text-color, 0.75);
 }
 
 a {
   text-decoration: none;
   background: $text-color;
   color: #fff;
-  
+
   &:hover {
     color: #fff;
     background: $strong;
@@ -106,7 +110,7 @@ div {
 }
 
 .image-text {
-  text-shadow: .2em .2em 0 rgba(0, 0, 0, 1);
+  text-shadow: 0.2em 0.2em 0 rgba(0, 0, 0, 1);
 }
 
 small {
@@ -115,21 +119,18 @@ small {
   letter-spacing: 0;
 }
 
-
-
 ol li {
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
 }
-
 
 .tag {
   position: absolute;
   top: 0;
   left: 0;
   text-transform: uppercase;
-  background: darken($emphasis,20%);
+  background: darken($emphasis, 20%);
   color: white;
-  padding: .25em 1em;
+  padding: 0.25em 1em;
   font-size: 20px;
 }
 
@@ -144,11 +145,9 @@ footer {
   font-size: 16px;
 }
 
-
-
 .map {
-  height: calc( #{$screen-height} - 50px);
-  width: 100%; 
+  height: calc(#{$screen-height} - 50px);
+  width: 100%;
   border-radius: 0 0 5px 5px;
   position: absolute;
 }
@@ -162,30 +161,28 @@ footer {
   width: $screen-width;
   height: $screen-height;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.07);
-  
+
   .highlight,
   pre {
     overflow-y: scroll;
-    height: calc( #{$screen-height} - 60px);
+    height: calc(#{$screen-height} - 60px);
   }
-  
-  
-  
+
   &:before,
   &:after {
-    content: '';
+    content: "";
     position: absolute;
   }
-  
+
   &:before {
-    background: linear-gradient(rgb(234,234,234),rgb(211,211,211));
+    background: linear-gradient(rgb(234, 234, 234), rgb(211, 211, 211));
     height: 20px;
     top: 0;
     left: 0;
     width: 100%;
     border-radius: 5px 5px 0 0;
   }
-  
+
   &:after {
     top: 5px;
     left: 7px;
@@ -195,32 +192,29 @@ footer {
     border-radius: 100%;
     box-shadow: 15px 0 0 0 #ffbd2e, 30px 0 0 0 #29c941;
   }
-  
-  code, pre {
+
+  code,
+  pre {
     background: none;
   }
-  
+
   ul {
-    
     list-style: none;
-    
+
     &:after {
       content: "";
       display: table;
       clear: both;
     }
   }
-  
-  
 }
-
 
 .atom {
   background: #282c35;
-  
+
   code,
   pre {
-    font-family: "Fira Mono";
+    font-family: "Fira Mono", monospace;
     font-weight: normal;
     letter-spacing: 0;
     font-size: 20px;
@@ -230,7 +224,7 @@ footer {
     background: #21252b;
     list-style: none;
   }
-  
+
   li {
     //display: inline-block;
     width: 200px;
@@ -244,14 +238,14 @@ footer {
     font-weight: 400;
     letter-spacing: 0;
     float: left;
-    font-family: '.SFNSText-Regular', 'SF UI Text', 'Lucida Grande', 'Segoe UI', Ubuntu, Cantarell, sans-serif;
+    font-family: ".SFNSText-Regular", "SF UI Text", "Lucida Grande", "Segoe UI",
+      Ubuntu, Cantarell, sans-serif;
     margin-left: 0;
     margin-bottom: 0;
     white-space: nowrap;
     padding: 10px;
     overflow: hidden;
-    
-    
+
     &.active {
       background: #2b2e36;
     }
@@ -261,7 +255,7 @@ footer {
 .terminal {
   background: #ffffff;
   padding: 20px 5px 5px;
-  
+
   pre {
     font-family: "Menlo";
     font-size: 15px;
@@ -274,16 +268,17 @@ footer {
 
 .chrome {
   background: #fff;
-  
+
   &:before {
-    background: linear-gradient(rgb(235,235,235),rgb(218,218,218));
+    background: linear-gradient(rgb(235, 235, 235), rgb(218, 218, 218));
   }
-  
-  pre,code {
+
+  pre,
+  code {
     font-size: 18px;
     line-height: 1.45;
   }
-  
+
   pre {
     padding: 10px;
     word-wrap: break-word;
@@ -292,40 +287,38 @@ footer {
     font-weight: 400;
     letter-spacing: 0;
   }
-  
+
   .highlight.highlight span {
     color: #000;
   }
-  
+
   ul {
-    background: linear-gradient(rgb(240,242,242),rgb(233,231,231));
-    border-top: 1px solid rgba(#969696, .5);
-    border-bottom: 1px solid rgba(#7a7a7a, .5);
+    background: linear-gradient(rgb(240, 242, 242), rgb(233, 231, 231));
+    border-top: 1px solid rgba(#969696, 0.5);
+    border-bottom: 1px solid rgba(#7a7a7a, 0.5);
     height: 30px;
-    
+
     //height: 30px;
   }
   li {
-    
     width: 25px;
-    
+
     font-size: 10px;
     text-align: center;
-    
+
     font-style: normal;
     font-weight: 400;
     letter-spacing: 0;
     float: left;
     margin-left: 0;
     margin-bottom: 0;
-    
-    
+
     &.search {
       background: #fff;
       width: 400px;
       height: 21px;
       border-radius: 3px;
-      box-shadow: inset 1px 1px 1px 0px rgb(183,183,183);
+      box-shadow: inset 1px 1px 1px 0px rgb(183, 183, 183);
       position: relative;
       text-align: left;
       top: 3px;
@@ -334,7 +327,8 @@ footer {
       font-weight: normal;
       padding: 5px 6px 6px 10px;
       margin-left: 5px;
-      font-family: '.SFNSText-Regular', 'SF UI Text', 'Lucida Grande', 'Segoe UI', Ubuntu, Cantarell, sans-serif;
+      font-family: ".SFNSText-Regular", "SF UI Text", "Lucida Grande",
+        "Segoe UI", Ubuntu, Cantarell, sans-serif;
     }
   }
   svg {
@@ -347,154 +341,286 @@ footer {
 }
 
 figure {
-  
   // Adapted from https://gist.github.com/edwardhotchkiss/2005058
   .highlight {
-    
-    .c {color: $highlightcomment;}
-    
-    .err {color: $highlighterror; background: none;}
-    
-    .g {color: $highlightgeneric;}
-    
-    .k {color: $highlightkeyword; font-weight: normal; }
-    
-    .l {color: $highlightliteral;}
-    
-    .n {color: $highlightname;}
-    
-    .o {color: $highlightoperator; font-style: normal; }
-    
-    .x {color: $highlightother;}
-    
-    .p {color: $highlightpunctuation;}
-    
-    .cm {color: $highlightcommentmultiline;}
-    
-    .cp {color: $highlightcommentpreproc;}
-    
-    .c1 {color: $highlightcommentsingle;}
-    
-    .cs {color: $highlightcommentspecial;}
-    
-    .gd {color: $highlightgenericdeleted;}
-    
+    .c {
+      color: $highlightcomment;
+    }
+
+    .err {
+      color: $highlighterror;
+      background: none;
+    }
+
+    .g {
+      color: $highlightgeneric;
+    }
+
+    .k {
+      color: $highlightkeyword;
+      font-weight: normal;
+    }
+
+    .l {
+      color: $highlightliteral;
+    }
+
+    .n {
+      color: $highlightname;
+    }
+
+    .o {
+      color: $highlightoperator;
+      font-style: normal;
+    }
+
+    .x {
+      color: $highlightother;
+    }
+
+    .p {
+      color: $highlightpunctuation;
+    }
+
+    .cm {
+      color: $highlightcommentmultiline;
+    }
+
+    .cp {
+      color: $highlightcommentpreproc;
+    }
+
+    .c1 {
+      color: $highlightcommentsingle;
+    }
+
+    .cs {
+      color: $highlightcommentspecial;
+    }
+
+    .gd {
+      color: $highlightgenericdeleted;
+    }
+
     .ge {
       color: $highlightgenericemph;
       font-style: italic;
     }
-    
-    .gr {color: $highlightgenericerror;}
-    
-    .gh {color: $highlightgenericheading;}
-    
-    .gi {color: $highlightgenericinserted;}
-    
-    .go {color: $highlightgenericoutput;}
-    
-    .gp {color: $highlightgenericprompt;}
-    
+
+    .gr {
+      color: $highlightgenericerror;
+    }
+
+    .gh {
+      color: $highlightgenericheading;
+    }
+
+    .gi {
+      color: $highlightgenericinserted;
+    }
+
+    .go {
+      color: $highlightgenericoutput;
+    }
+
+    .gp {
+      color: $highlightgenericprompt;
+    }
+
     .gs {
       color: $highlightgenericstrong;
       font-weight: bold;
     }
-    
-    .gu {color: $highlightgenericsubheading;}
-    
-    .gt {color: $highlightgenerictraceback;}
-    
-    .kc {color: $highlightkeywordconstant;}
-    
-    .kd {color: $highlightkeyworddeclaration;}
-    
-    .kn {color: $highlightkeywordnamespace;}
-    
-    .kp {color: $highlightkeywordpseudo;}
-    
-    .kr {color: $highlightkeywordreserved;}
-    
-    .kt {color: $highlightkeywordtype;}
-    
-    .ld {color: $highlightliteraldate;}
-    
-    .m {color: $highlightliteralnumber;}
-    
-    .s {color: $highlightliteralstring;}
-    
-    .na {color: $highlightnameattribute;}
-    
-    .nb {color: $highlightnamebuiltin;}
-    
-    .nc {color: $highlightnameclass;}
-    
-    .no {color: $highlightnameconstant;}
-    
-    .nd {color: $highlightnamedecorator;}
-    
-    .ni {color: $highlightnameentity;}
-    
-    .ne {color: $highlightnameexception;}
-    
-    .nf {color: $highlightnamefunction;}
-    
-    .nl {color: $highlightnamelabel;}
-    
-    .nn {color: $highlightnamenamespace;}
-    
-    .nx {color: $highlightnameother;}
-    
-    .py {color: $highlightnameproperty;}
-    
-    .nt {color: $highlightnametag;}
-    
-    .nv {color: $highlightnamevariable;}
-    
-    .ow {color: $highlightoperatorword;}
-    
-    .w {color: $highlighttextwhitespace;}
-    
-    .mf {color: $highlightliteralnumberfloat;}
-    
-    .mh {color: $highlightliteralnumberhex;}
-    
-    .mi {color: $highlightliteralnumberinteger;}
-    
-    .mo {color: $highlightliteralnumberoct;}
-    
-    .sb {color: $highlightliteralstringbacktick;}
-    
-    .sc {color: $highlightliteralstringchar;}
-    
-    .sd {color: $highlightliteralstringdoc;}
-    
-    .s2 {color: $highlightliteralstringdouble;}
-    
-    .se {color: $highlightliteralstringescape;}
-    
-    .sh {color: $highlightliteralstringheredoc;}
-    
-    .si {color: $highlightliteralstringinterpol;}
-    
-    .sx {color: $highlightliteralstringother;}
-    
-    .sr {color: $highlightliteralstringregex;}
-    
-    .s1 {color: $highlightliteralstringsingle;}
-    
-    .ss {color: $highlightliteralstringsymbol;}
-    
-    .bp {color: $highlightnamebuiltinpseudo;}
-    
-    .vc {color: $highlightnamevariableclass;}
-    
-    .vg {color: $highlightnamevariableglobal;}
-    
-    .vi {color: $highlightnamevariableinstance;}
-    
-    .il {color: $highlightliteralnumberintegerlong;}
-    
+
+    .gu {
+      color: $highlightgenericsubheading;
+    }
+
+    .gt {
+      color: $highlightgenerictraceback;
+    }
+
+    .kc {
+      color: $highlightkeywordconstant;
+    }
+
+    .kd {
+      color: $highlightkeyworddeclaration;
+    }
+
+    .kn {
+      color: $highlightkeywordnamespace;
+    }
+
+    .kp {
+      color: $highlightkeywordpseudo;
+    }
+
+    .kr {
+      color: $highlightkeywordreserved;
+    }
+
+    .kt {
+      color: $highlightkeywordtype;
+    }
+
+    .ld {
+      color: $highlightliteraldate;
+    }
+
+    .m {
+      color: $highlightliteralnumber;
+    }
+
+    .s {
+      color: $highlightliteralstring;
+    }
+
+    .na {
+      color: $highlightnameattribute;
+    }
+
+    .nb {
+      color: $highlightnamebuiltin;
+    }
+
+    .nc {
+      color: $highlightnameclass;
+    }
+
+    .no {
+      color: $highlightnameconstant;
+    }
+
+    .nd {
+      color: $highlightnamedecorator;
+    }
+
+    .ni {
+      color: $highlightnameentity;
+    }
+
+    .ne {
+      color: $highlightnameexception;
+    }
+
+    .nf {
+      color: $highlightnamefunction;
+    }
+
+    .nl {
+      color: $highlightnamelabel;
+    }
+
+    .nn {
+      color: $highlightnamenamespace;
+    }
+
+    .nx {
+      color: $highlightnameother;
+    }
+
+    .py {
+      color: $highlightnameproperty;
+    }
+
+    .nt {
+      color: $highlightnametag;
+    }
+
+    .nv {
+      color: $highlightnamevariable;
+    }
+
+    .ow {
+      color: $highlightoperatorword;
+    }
+
+    .w {
+      color: $highlighttextwhitespace;
+    }
+
+    .mf {
+      color: $highlightliteralnumberfloat;
+    }
+
+    .mh {
+      color: $highlightliteralnumberhex;
+    }
+
+    .mi {
+      color: $highlightliteralnumberinteger;
+    }
+
+    .mo {
+      color: $highlightliteralnumberoct;
+    }
+
+    .sb {
+      color: $highlightliteralstringbacktick;
+    }
+
+    .sc {
+      color: $highlightliteralstringchar;
+    }
+
+    .sd {
+      color: $highlightliteralstringdoc;
+    }
+
+    .s2 {
+      color: $highlightliteralstringdouble;
+    }
+
+    .se {
+      color: $highlightliteralstringescape;
+    }
+
+    .sh {
+      color: $highlightliteralstringheredoc;
+    }
+
+    .si {
+      color: $highlightliteralstringinterpol;
+    }
+
+    .sx {
+      color: $highlightliteralstringother;
+    }
+
+    .sr {
+      color: $highlightliteralstringregex;
+    }
+
+    .s1 {
+      color: $highlightliteralstringsingle;
+    }
+
+    .ss {
+      color: $highlightliteralstringsymbol;
+    }
+
+    .bp {
+      color: $highlightnamebuiltinpseudo;
+    }
+
+    .vc {
+      color: $highlightnamevariableclass;
+    }
+
+    .vg {
+      color: $highlightnamevariableglobal;
+    }
+
+    .vi {
+      color: $highlightnamevariableinstance;
+    }
+
+    .il {
+      color: $highlightliteralnumberintegerlong;
+    }
   }
-  
+
   .language-yaml {
     .s {
       color: #e26b73;
@@ -504,14 +630,14 @@ figure {
       color: #96c475;
     }
   }
-  
+
   .language-html {
     color: #aab1be;
   }
-  
+
   .language-md {
     color: #aab1be;
-    
+
     .nn {
       color: #5c6370;
     }
@@ -520,15 +646,13 @@ figure {
     .pi {
       color: #de6b74;
     }
-    
+
     .pi + .s,
     .pi + .pi {
       color: #98c379 !important;
     }
   }
-  
 }
-
 
 .country-svg {
   margin-top: 1em;
@@ -552,11 +676,10 @@ figure {
 
 // lol
 .highlight-3.highlight-3 {
-  
   span:nth-child(9),
-  span:nth-child(n+27):nth-child(-n+51),
-  span:nth-child(n+73):nth-child(-n+97),
-  span:nth-child(n+119):nth-child(-n+143), {
+  span:nth-child(n + 27):nth-child(-n + 51),
+  span:nth-child(n + 73):nth-child(-n + 97),
+  span:nth-child(n + 119):nth-child(-n + 143) {
     background: #41afa5;
     color: #fff;
   }
@@ -590,7 +713,6 @@ figure {
   color: #fff;
 }
 */
-
 }
 
 .section-image {

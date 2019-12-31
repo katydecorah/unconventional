@@ -6,7 +6,7 @@ url: "http://katydecorah.com"
 permalink: pretty
 accesstoken: pk.eyJ1Ijoia2F0eWRlY29yYWgiLCJhIjoiY2lueGc5MzV2MTdpcHU4a2o0aGdkMGZpYSJ9.AH3nT__bjnI57me5iahTWw
 
-author: 
+author:
   name: Katy DeCorah
   email: katydecorah@gmail.com
   uri: http://katydecorah.com
@@ -17,10 +17,10 @@ twitter:
 
 timezone: America/New_York
 
-gems:
+plugins:
   - jemoji
   - jekyll-seo-tag
-  
+
 exclude:
   - node_modules
   - README.md
